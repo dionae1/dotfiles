@@ -1,0 +1,71 @@
+* {
+    font: "Iosevka Nerd Font Bold 13";
+    bg-base:      #101010df;
+    bg-input:     #1a1a1aee;
+    bg-selected:  #333333ff;
+    fg-main:      #eeeeee;
+    fg-dim:       #6e6e6e;
+    border-col:   #404040aa;
+    background-color: transparent;
+    text-color:       @fg-main;
+    margin:  0;
+    padding: 0;
+    spacing: 0;
+}
+element-icon, element-text, scrollbar {
+    cursor: pointer;
+}
+window {
+    width: 450px;
+    location: center; anchor: center;
+    background-color: @bg-base;
+    border: 2px;
+    border-color: @border-col;
+    border-radius: 4px;
+}
+inputbar {
+    spacing: 6px; padding: 6px;
+    children: [ icon-search, entry ];
+    background-color: @bg-input;
+    border-radius: 4px;
+    margin: 8px;
+}
+icon-search, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+icon-search {
+    expand: false;
+    filename: "search";
+    size: 14px; color: @fg-dim;
+}
+listview {
+    padding: 4px;
+    lines: 10;
+    columns: 1;
+    scrollbar: true;
+    fixed-height: false;
+    dynamic: true;
+}
+element {
+    padding: 2px;
+    spacing: 14px;
+    border-radius: 6px;
+}
+element normal.normal {
+    text-color: @fg-dim;
+}
+element selected.normal {
+    background-color: @bg-selected;
+    text-color: @fg-main;
+}
+element-icon {
+    size: 2em;
+}
+element-text {
+    text-color: inherit;
+}
+scrollbar {
+    handle-width: 2px;
+    handle-color: @bg-selected;
+    padding: 2px 0 0 4px;
+}
