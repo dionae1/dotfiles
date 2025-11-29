@@ -22,7 +22,7 @@
    ```
 2. Install Dependencies:
     ```bash
-    yay -S stow python-pywal rofi-wayland imagemagick libnotify fastfetch kitty fish
+    yay -S stow python-pywal rofi-wayland imagemagick libnotify fastfetch kitty fish eza bat
     ```
 3. Apply Symlinks with Stow:
     ```bash
