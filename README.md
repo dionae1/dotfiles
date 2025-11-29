@@ -11,8 +11,8 @@
 
 - **Shortcuts:**
     For scripts works properly you should configure key shortcuts to: 
-    1. `shuffle.sh`: Select a new random wallpaper and theme.
-    2. `selector.sh`: Open a wallpaper menu selector and applies it.
+    1. `wallpaper_shuffle.sh`: Select a new random wallpaper and theme.
+    2. `wallpaper_selector.sh`: Open a wallpaper menu selector and applies it.
 
 ## 🛠️ Installation
 
