@@ -51,7 +51,7 @@ element {
     spacing: 14px;
     border-radius: 6px;
 }
-element normal.normal {
+element normal {
     text-color: @fg-dim;
 }
 element selected.normal {
