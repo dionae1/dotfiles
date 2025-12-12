@@ -1,4 +1,4 @@
-## Arch Rice with EndeavourOS + KDE Plasma 6
+## Arch + KDE Plasma 6
 
 ### 📂 ...
 
